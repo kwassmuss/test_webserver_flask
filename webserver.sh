@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bash -x
 
-# docker=$(which podman)
+#docker=$(which podman)
 docker=$(which docker)
 
 function usage(){
