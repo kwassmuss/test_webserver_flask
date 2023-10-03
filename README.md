@@ -1,7 +1,7 @@
 # test_webserver_flask
 a smal flask test webserver
 
-no external webserver, some shortcuts. Don't use in production
+no nginx/apache; some shortcuts. Don't use in production
 
 Note:
 The POST request "curl -X POST --data-binary "@test.csv" leads to flask storing the binary file content *encoded as a string in request.form.keys* which disturbs the encoding of the data.
